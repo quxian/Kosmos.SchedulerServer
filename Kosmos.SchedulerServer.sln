@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.SchedulerServer", "Kosmos.SchedulerServer\Kosmos.SchedulerServer.csproj", "{45290E57-BBE1-47ED-80AB-285CB4088ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.SchedulerServer.Tests", "Kosmos.SchedulerServer.Tests\Kosmos.SchedulerServer.Tests.csproj", "{E924D2BD-34EA-489D-A15F-A4D5A79FB97B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45290E57-BBE1-47ED-80AB-285CB4088ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45290E57-BBE1-47ED-80AB-285CB4088ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45290E57-BBE1-47ED-80AB-285CB4088ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45290E57-BBE1-47ED-80AB-285CB4088ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E924D2BD-34EA-489D-A15F-A4D5A79FB97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E924D2BD-34EA-489D-A15F-A4D5A79FB97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E924D2BD-34EA-489D-A15F-A4D5A79FB97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E924D2BD-34EA-489D-A15F-A4D5A79FB97B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
