@@ -12,9 +12,11 @@ namespace Kosmos.SchedulerServer.DbContext {
         public AppDbContext() : base("SchedulerServerDbConnection") { }
 
         public DbSet<Url> Urls { get; set; }
+        public DbSet<DownloadErrorUrl> DownloadErrorUrls { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
             modelBuilder.Configurations.Add(new UrlMap());
+            modelBuilder.Configurations.Add(new DownloadErrorUrlMap());
 
             base.OnModelCreating(modelBuilder);
         }

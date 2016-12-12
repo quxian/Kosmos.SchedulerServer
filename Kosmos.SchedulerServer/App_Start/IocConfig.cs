@@ -22,8 +22,8 @@ namespace Kosmos.SchedulerServer {
             builder.RegisterApiControllers(executingAssembly);
             builder.RegisterControllers(executingAssembly);
 
-            builder.RegisterType<AppDbContext>();
-            builder.RegisterType<HttpClient>();
+            builder.RegisterType<AppDbContext>().SingleInstance();
+            builder.RegisterType<HttpClient>().SingleInstance();
 
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));

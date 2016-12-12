@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201611290852020_alter_Url.Designer.cs">
       <DependentUpon>201611290852020_alter_Url.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612070221032_add_DownloadErrorUrl_table.cs" />
+    <Compile Include="Migrations\201612070221032_add_DownloadErrorUrl_table.Designer.cs">
+      <DependentUpon>201612070221032_add_DownloadErrorUrl_table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -81,6 +85,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611290852020_alter_Url.resx">
       <DependentUpon>201611290852020_alter_Url.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612070221032_add_DownloadErrorUrl_table.resx">
+      <DependentUpon>201612070221032_add_DownloadErrorUrl_table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

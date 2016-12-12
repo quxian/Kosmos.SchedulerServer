@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DownloadErrorUrlMap.cs" />
     <Compile Include="UrlMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
